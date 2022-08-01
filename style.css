@@ -13,7 +13,7 @@
     font-style: normal;
 }
 body {
-    background: #000;
+    background: #FFFFFF;
 }
 body.desktop {
     overflow: hidden;
@@ -134,13 +134,13 @@ body.mobile {
 h1 {
     margin: 14px 0px 0 20px;
     font-family: "Karla";
-    color: #fff;
+    color: #0000ff;
     font-size: 15px;
     letter-spacing: 1.1px;
     font-weight: normal;
 }
 h1 a {
-    color: #fff;
+    color: #0000ff;
     text-decoration: none;
 }
 h2 {
@@ -174,7 +174,7 @@ h2 {
 #about div {
     display: inline-block;
     font-size: 15px;
-    color: #fff;
+    color: #0000ff;
     text-decoration: none;
     margin-left: 20px;
     padding: 10px;
@@ -228,11 +228,11 @@ h2 {
     }
 }
 #content_about {
-    color: #fff;
+    color: #0000ff;
     font-family: "Karla";
     font-size: 15px;
     letter-spacing: 1.1px;
-    width: 760px;
+    width: 860px;
     z-index: 101;
     position: relative;
     padding: calc(50vh - 28px) 0 calc(50vh - 28px) 24vw;
@@ -267,7 +267,7 @@ h2 {
     text-decoration: underline;
 }
 #content_about a {
-    color: #fff;
+    color: #0000ff;
     text-decoration: none;
 }
 ul {
@@ -288,7 +288,7 @@ ul li div {
     flex: 0 0 auto;
 }
 ul li span {
-    opacity: 0.4;
+    opacity: 0.6;
     font-size: 10px;
     letter-spacing: 0.5;
     -webkit-box-flex: 1;
@@ -305,7 +305,7 @@ ul li span {
 .vingtun::before,
 .vingtdeux::before {
     content: "2016";
-    opacity: 0.4;
+    opacity: 0.6;
     font-size: 10px;
     position: absolute;
     -webkit-transform-origin: 0 100%;
@@ -379,7 +379,7 @@ ul li span {
     display: none !important;
 }
 #content_about .batal {
-    color: #fff;
+    color: #0000ff;
     text-transform: uppercase;
     font-family: "GT-America-Expanded";
     font-size: 14px;
