@@ -304,7 +304,6 @@ ul li span {
 .vingt::before,
 .vingtun::before,
 .vingtdeux::before {
-    content: "2016";
     opacity: 0.6;
     font-size: 10px;
     position: absolute;
@@ -354,7 +353,7 @@ ul li span {
         left: -15px;
     }
 }*/
-.dixsept::before {
+/* .dixsept::before {
     content: "2017";
 }
 .dixhuit::before {
@@ -368,10 +367,10 @@ ul li span {
 }
 .vingtun::before {
     content: "2021";
-}
-.vingtdeux::before {
+} */
+/* .vingtdeux::before {
     content: "2022";
-}
+} */
 .seize {
     height: auto;
 }
