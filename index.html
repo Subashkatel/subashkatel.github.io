@@ -1,55 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Subash Katel - Software Engineer</title>
-        
-        <!-- Favicon image for the website-->
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<head>
+    <title>Subash Katel - Redirecting</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="description" content="Subash Katel - Computer Science Student at UCSD" />
+    <meta http-equiv="refresh" content="3; URL=https://subashkatel.com">
+    <link rel="canonical" href="https://subashkatel.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="desktop">
+    <div id="top">
+        <h1>Redirecting to New Website</h1>
+        <h2>Please wait...</h2>
+        <h3><a href="https://subashkatel.com" target="_blank">Click here if not redirected automatically</a></h3>
+    </div>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-        <meta name="description" content="Subash Katel - Software Engineer UCSD Computer Science" />
+    <div id="contact">
+        <a class="classic" href="mailto:katelsubash.sk@gmail.com" target="_blank">mail</a>
+        <a class="classic" href="https://github.com/Subashkatel" target="_blank">github</a>
+        <a class="classic" href="https://www.linkedin.com/in/subashkatel/" target="_blank">linkedin</a>
+    </div>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="desktop">
-        <div id="top">
-            <h1>Subash Katel</h1>
-            <h1>CS Student</h1>
-            <h1><a href="resume/CV_Grad_School.pdf" target="_blank">Current CV</a></h1>
-        </div>
-        
-        <!-- Links to email and LinkedIn at the bottom of the page -->
-        <div id="contact">
-            <a class="classic" href="mailto:katelsubash.sk@gmail.com" target="_blank">mail</a>
-            <a class="classic" href="https://github.com/Subashkatel" target="_blank">github</a>
-            <a class="classic" href="https://www.linkedin.com/in/subashkatel/" target="_blank">linkedin</a>
-        </div>
+    <div id="content_about" class="vs-section">
+        <h3>This site has moved to <a href="https://subashkatel.com" target="_blank">subashkatel.com</a></h3>
+    </div>
 
-        <div id="content_about" class="vs-section">
-            <p>I am a final-year Computer Science student at UCSD. Currently, I am applying to graduate school to explore my passion for compilers, machine learning, and heterogeneous systems.</p>
+    <script>
+        // Redirect after 3 seconds
+        setTimeout(function() {
+            window.location.href = "https://subashkatel.com";
+        }, 3000);
+    </script>
 
-            <p>My research interests lies on leveraging compilers and machine learning techniques to optimize heterogeneous systems for high-performance computing environments. II have had the chance to contribute to building compiler tools and techniques that bridge the gap between high-level machine learning models and hardware-specific optimizations.</p>
-
-            <p>In addition to my work in computer science, I have had chance to contribute in high-energy physics, applying self-supervised learning methods to analyze particle jet data. My physics research, under the mentorship of Prof. Javier Duarte, led to the development of the Jet-based Joint Embedding Predictive Architecture (J-JEPA), a framework for learning augmentation-independent representations of jets. Still in the works 😉</p>
-
-            <p>I have had the privilege of being mentored by amazing faculty at UCSD, including Prof. Javier Duarte and Prof. Hadi Esmaeilzadeh.</p>
-
-            <p> Still Under Construction 👨🏽‍🍳</p>
-        </div>
-
-        <div id="inner_pixi"></div>
-
-        <script src="vendor.js"></script>
-        <script src="main.js"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55394794-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-55394794-1');
-        </script>
-    </body>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55394794-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-55394794-1');
+    </script>
+</body>
 </html>
